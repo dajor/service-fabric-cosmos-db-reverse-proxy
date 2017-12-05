@@ -6,7 +6,7 @@ author: stvermas
 
 # Service Fabric Cosmos DB / Reverse Proxy Sample #
 
-This sample project demonstrates how Service Fabric services that are exposed via a reverse proxy can be secured.
+This sample project demonstrates how Service Fabric services that are exposed via a reverse proxy can be secured. Aditionally, it shows how to use AppSettings in a .NET Core 2 service and how to use these settings to connect to CosmosDB.
 
 ## Setup
   1. Set ApplicationGateway/Http/ForwardClientCertificate cluster setting to true. 
